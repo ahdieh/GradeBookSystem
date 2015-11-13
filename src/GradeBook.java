@@ -73,14 +73,14 @@ public class GradeBook {
 
 	 		for (int j = 0; j<frequency.length;j++){
 	 	    	if (j==10)
-	 	    		System.out.printf("%05d: ", 100);
+	 	    		System.out.printf("%n%5d: ", 100);
 	 	    	
 	 	    	else
-	 			System.out.printf("%02d-%02d: ",j*10, j*10+9);
+	 			System.out.printf("%n%02d-%02d: ",j*10, j*10+9);
 	 
 	 	    	for (int stars = 0; stars<frequency[j]; stars++){
 	 	    		System.out.print("*");
-	 	    		System.out.println();
+	 	    		
 	     		}
 	 		}
 	 		
