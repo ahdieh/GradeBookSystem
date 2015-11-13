@@ -69,7 +69,7 @@ public class GradeBook {
 	 	for(double grade : this._grades){
 	 		frequency[(int) (grade/10)]++;
 	 	}
-	 	System.out.println("Grade distribution:");
+	 	System.out.printf("%n%nGrade distribution:");
 
 	 		for (int j = 0; j<frequency.length;j++){
 	 	    	if (j==10)
